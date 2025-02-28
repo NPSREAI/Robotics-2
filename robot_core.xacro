@@ -174,9 +174,9 @@
     <joint name="LR_L_joint" type="prismatic">
         <parent link="body"/>
         <child link="LR_L"/>
-        <origin xyz="0.14 -0.296 0.095" rpy="0 0 0"/>
+        <origin xyz="0.142 -0.296 0.095" rpy="0 0 0"/>
         <axis xyz="1 0 0"/>
-        <limit lower="0" upper="0.1" effort="1" velocity="1"/>
+        <limit lower="-0.125" upper="0" effort="1" velocity="-1"/>
     </joint>
 
     <link name="LR_L">
@@ -202,9 +202,9 @@
     <joint name="LR_R_joint" type="prismatic">
         <parent link="body"/>
         <child link="LR_R"/>
-        <origin xyz="-0.138 -0.296 0.095" rpy="0 0 0"/>
+        <origin xyz="-0.139 -0.296 0.095" rpy="0 0 0"/>
         <axis xyz="1 0 0"/>
-        <limit lower="0" upper="0.02" effort="1" velocity="-1"/>
+        <limit lower="0" upper="0.125" effort="1" velocity="1"/>
     </joint>
     <link name="LR_R">
         <visual>
