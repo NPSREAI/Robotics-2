@@ -81,7 +81,7 @@
                 <mesh filename="file:///home/preeyanan/robotic2/src/articubot_nuy/meshes/frontwheel.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="0.6" length="0.1" radius="0.09">
+        <xacro:inertial_cylinder mass="0.6" length="0.08" radius="0.09">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
@@ -108,7 +108,7 @@
                 <mesh filename="file:///home/preeyanan/robotic2/src/articubot_nuy/meshes/frontwheel.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="0.6" length="0.1" radius="0.09">
+        <xacro:inertial_cylinder mass="0.6" length="0.08" radius="0.09">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
@@ -135,7 +135,7 @@
                 <mesh filename="file:///home/preeyanan/robotic2/src/articubot_nuy/meshes/backwheel.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="1" length="0.1" radius="0.12">
+        <xacro:inertial_cylinder mass="1" length="0.08" radius="0.12">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
@@ -162,7 +162,7 @@
                 <mesh filename="file:///home/preeyanan/robotic2/src/articubot_nuy/meshes/backwheel.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="1" length="0.1" radius="0.12">
+        <xacro:inertial_cylinder mass="1" length="0.08" radius="0.12">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
